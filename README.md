@@ -1,4 +1,5 @@
-# Lars Studio website
+
+[logo]: "https://image.prntscr.com/image/jYrAb6W7SRaI8RpBCIZRgg.png"
 
 Lars Studios is a project started by me.
 The goal is to make an functional and working website that could be used for getting customers.
