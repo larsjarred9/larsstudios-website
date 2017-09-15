@@ -3,8 +3,8 @@ header
   background: #CCC
 
 	.logo
-		+size(50px)
-  		 background: #999
+		 +size(50px)
+  		 background: #ccc
 
 nav
 	A
