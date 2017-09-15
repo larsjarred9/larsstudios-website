@@ -1,4 +1,4 @@
-#Lars Studios Website - The Ultimate school project.
+# Lars Studios Website - The Ultimate school project.
 
 Lars Studios is a project started by me.
 The goal is to make an functional and working website that could be used for getting customers.
