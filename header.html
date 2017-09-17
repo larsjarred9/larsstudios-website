@@ -1,19 +1,78 @@
-
 <html>
-<link type="text/css" rel="stylesheet" href="header.css"/>
-<header>
-	<div class="logo"></div>
+    <head>
+        <link type="text/css" rel="stylesheet" href="header.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <title>Lars Studios</title>
+    </head>
 
-	<nav>
-		<a href="">About Me</a>
-		<a href="">Portfolio</a>
-		<a href="">Partners</a>
-		<a href="">Contact</a>
-	</nav>
+    <body onload="typeWriter()">
 
-	<h1>Lars Studios</h1>
-	<p class="kicker">Developer//Designer with passion</p>
+        <header>         
+            <nav>
+                <a href="">About Me</a>
+                <a href="">Portfolio</a>
+                <a href="">Partners</a>
+                <a href="">Contact</a>
+            </nav>
+            <div id="header-logo">
+                <h1><span>Lars Studios</span></h1>   
+            </div>
+            <p id="demo"></p>
+        </header>
+        <section id="about">
+            <h1>About Myself</h1>
 
-</header>
+            <section id="about-flex">
+                <img class="img-circle" src="web.jpg">
+                <img class="img-circle" src="java.jpg">
+                <img class="img-circle" src="lars.jpg">
+                <img class="img-circle" src="skript.jpg">
+                <img class="img-circle" src="design.jpg">
+            </section>
+            <section id="about-text">
+                <p>Hello, My name is Lars jarred. I’m a 14 year old developer from The Netherlands. Who loves his hobby. Lars Studios started 3 months ago. When
+                    I saw some potential in the buisness. The market needed some fresh blood like me. Afther I’m done with the dutch mavo, I want to go to the havo. When havo is finished I’m going to choos an education thats suits With my dreams, “Becomming an full time developer/designer (HBO Development)”.</p>
+            </section>
+            <br>
+        </section>
+        <section id="portfolio">
+            <h1>Portfolio</h1>
+            <section id="about-flex">
+                <img src="rn.jpg">
+                <img src="empires.jpg">
+                <img src="sn.jpg">
+            </section>
+            <br>
+        </section>
+        <section id="partners">
+        <h1>partners</h1>
+        
+        
+        </section>
+        <section id="footer">
+            <nav>
+                <a href="">About Me</a>
+                <a href="">Portfolio</a>
+                <a href="">Partners</a>
+                <a href="">Contact</a>
+            </nav>
+            <p>all content copyright 2018</p>
+        </section>
+    </body>
 </html>
+
+
+<script>
+    var i = 0;
+    var txt = 'Developer | Designer with passion';
+    var speed = 75;
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+</script>
 

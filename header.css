@@ -1,21 +1,184 @@
-header
-  height: 450px
-  background: #ccc
+html{
+    width: 100%;
+    padding:0;
+    margin: 0;
+}
 
-.logo
-  +size(50px)
-  background: #999
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+header{
+    background-image: url(https://i.imgur.com/D7brSoL.jpg);
+    background-size: cover;
+    height:400px;
+    text-align: center;
+}
 
-nav
-  a
-    display: inline-block
-	margin-lef: 20px
-		
-	color: rgba(0,0,0,0.7)
-	font
-	  weigt: 700
-	  size: 14px
+a,p{
+    font-family: 'Open Sans', sans-serif;
+}
 
-	text-transform: uppercase
-		
-	   
+nav{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    padding-top: 10px; 
+}
+
+
+nav a, p{
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    font-weight: 100;
+    size: 14px;    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+#header-logo{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 20px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    width:300px;
+}
+
+#header-logo h1{
+    width:auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 35;
+}
+
+#about{
+    background-color: white;
+    background-size: cover;
+    height:400px;
+    text-align: center;
+}
+
+#portfolio{
+    background-color: #f5f2f2;
+    background-size: cover;
+    height:350px;
+    text-align: center;
+}
+
+#portfolio p{
+    color: darkgray;
+}
+
+#about p{
+    color: darkgray;
+}
+
+#portfolio h1{
+    width:auto;
+    padding-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #1F1320;
+    text-transform: uppercase;
+    font-size: 18;
+}
+#portfolio-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#about h1{
+    width:auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #1F1320;
+    text-transform: uppercase;
+    font-size: 18;
+}
+
+#partners h1{
+    width:auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #1F1320;
+    text-transform: uppercase;
+    font-size: 18;
+}
+
+
+#about-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img2-circle {
+    border-radius: 15%;
+}
+
+#about-text p {
+    font-weight: 100;
+    size: 14px;    
+    width:auto;
+    text-transform: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    
+}
+
+
+
+#partners{
+    background-color: white;
+    background-size: cover;
+    height:250px;
+    text-align: center;
+
+
+}
+
+
+
+
+
+#footer{
+    background-image: url(https://i.imgur.com/D7brSoL.jpg);
+    background-size: cover;
+    height:150px;
+    text-align: right;
+}
+
+#footer p {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    font-weight: 100;
+    size: 14px;    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
