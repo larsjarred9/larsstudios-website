@@ -95,9 +95,9 @@ nav a, p{
 }
 #portfolio-flex{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    
+
 }
 
 #about h1{
@@ -123,7 +123,13 @@ nav a, p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
+}
+
+#partners-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .img-circle {
@@ -146,7 +152,7 @@ nav a, p{
     margin-bottom: 100px;
     margin-right: 250px;
     margin-left: 250px;
-    
+
 }
 
 
@@ -161,7 +167,27 @@ nav a, p{
 }
 
 
+#contact{
+    background-color: #f5f2f2;
+    background-size: cover;
+    height:200px;
+    text-align: center;
 
+
+}
+
+#contact p{
+    color: darkgray;
+}
+
+#contact h1{
+    width:auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #1F1320;
+    text-transform: uppercase;
+    font-size: 18;
+}
 
 
 #footer{
